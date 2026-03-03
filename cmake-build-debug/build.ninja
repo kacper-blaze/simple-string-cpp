@@ -52,14 +52,14 @@ build cmake_object_order_depends_target_lab4SimpleString_forStudents: phony || .
 build CMakeFiles/lab4SimpleString_forStudents.dir/main.cpp.o: CXX_COMPILER__lab4SimpleString_forStudents_unscanned_Debug /home/blaze/Desktop/studia/CLionProjects/pp-2-lab-4-simple-string/main.cpp || cmake_object_order_depends_target_lab4SimpleString_forStudents
   CONFIG = Debug
   DEP_FILE = CMakeFiles/lab4SimpleString_forStudents.dir/main.cpp.o.d
-  FLAGS = --std=c++23 -Wall -Wextra -pedantic -Wno-error=deprecated-declarations -fsanitize=address,undefined -g -std=c++23 -fdiagnostics-color=always
+  FLAGS = --std=c++23 -Wall -Wextra -pedantic -g -std=c++23 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/lab4SimpleString_forStudents.dir
   OBJECT_FILE_DIR = CMakeFiles/lab4SimpleString_forStudents.dir
 
 build CMakeFiles/lab4SimpleString_forStudents.dir/simpleString.cpp.o: CXX_COMPILER__lab4SimpleString_forStudents_unscanned_Debug /home/blaze/Desktop/studia/CLionProjects/pp-2-lab-4-simple-string/simpleString.cpp || cmake_object_order_depends_target_lab4SimpleString_forStudents
   CONFIG = Debug
   DEP_FILE = CMakeFiles/lab4SimpleString_forStudents.dir/simpleString.cpp.o.d
-  FLAGS = --std=c++23 -Wall -Wextra -pedantic -Wno-error=deprecated-declarations -fsanitize=address,undefined -g -std=c++23 -fdiagnostics-color=always
+  FLAGS = --std=c++23 -Wall -Wextra -pedantic -g -std=c++23 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/lab4SimpleString_forStudents.dir
   OBJECT_FILE_DIR = CMakeFiles/lab4SimpleString_forStudents.dir
 
@@ -74,7 +74,7 @@ build CMakeFiles/lab4SimpleString_forStudents.dir/simpleString.cpp.o: CXX_COMPIL
 build bin/lab4SimpleString_forStudents: CXX_EXECUTABLE_LINKER__lab4SimpleString_forStudents_Debug CMakeFiles/lab4SimpleString_forStudents.dir/main.cpp.o CMakeFiles/lab4SimpleString_forStudents.dir/simpleString.cpp.o
   CONFIG = Debug
   DEP_FILE = CMakeFiles/lab4SimpleString_forStudents.dir/link.d
-  FLAGS = --std=c++23 -Wall -Wextra -pedantic -Wno-error=deprecated-declarations -fsanitize=address,undefined -g
+  FLAGS = --std=c++23 -Wall -Wextra -pedantic -g
   LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/lab4SimpleString_forStudents.dir/link.d
   OBJECT_DIR = CMakeFiles/lab4SimpleString_forStudents.dir
   POST_BUILD = :
@@ -87,24 +87,6 @@ build bin/lab4SimpleString_forStudents: CXX_EXECUTABLE_LINKER__lab4SimpleString_
 # Utility command for run
 
 build run: phony CMakeFiles/run bin/lab4SimpleString_forStudents
-
-
-#############################################
-# Utility command for zip
-
-build zip: phony CMakeFiles/zip
-
-
-#############################################
-# Utility command for format
-
-build format: phony CMakeFiles/format
-
-
-#############################################
-# Utility command for ctags
-
-build ctags: phony CMakeFiles/ctags
 
 
 #############################################
@@ -176,28 +158,7 @@ build install/strip: phony CMakeFiles/install/strip.util
 # Custom command for CMakeFiles/run
 
 build CMakeFiles/run | ${cmake_ninja_workdir}CMakeFiles/run: CUSTOM_COMMAND bin/lab4SimpleString_forStudents || bin/lab4SimpleString_forStudents
-  COMMAND = cd /home/blaze/Desktop/studia/CLionProjects/pp-2-lab-4-simple-string/cmake-build-debug && /home/blaze/Desktop/studia/CLionProjects/pp-2-lab-4-simple-string/cmake-build-debug/bin/lab4SimpleString_forStudents
-
-
-#############################################
-# Custom command for CMakeFiles/zip
-
-build CMakeFiles/zip | ${cmake_ninja_workdir}CMakeFiles/zip: CUSTOM_COMMAND
-  COMMAND = cd /home/blaze/Desktop/studia/CLionProjects/pp-2-lab-4-simple-string && zip -r /home/blaze/Desktop/studia/CLionProjects/pp-2-lab-4-simple-string/cmake-build-debug/pp-2-lab-4-simple-string.zip ./
-
-
-#############################################
-# Custom command for CMakeFiles/format
-
-build CMakeFiles/format | ${cmake_ninja_workdir}CMakeFiles/format: CUSTOM_COMMAND
-  COMMAND = cd /home/blaze/Desktop/studia/CLionProjects/pp-2-lab-4-simple-string/cmake-build-debug && clang-format -i -style=Google /home/blaze/Desktop/studia/CLionProjects/pp-2-lab-4-simple-string/main.cpp /home/blaze/Desktop/studia/CLionProjects/pp-2-lab-4-simple-string/simpleString.cpp
-
-
-#############################################
-# Custom command for CMakeFiles/ctags
-
-build CMakeFiles/ctags | ${cmake_ninja_workdir}CMakeFiles/ctags: CUSTOM_COMMAND
-  COMMAND = cd /home/blaze/Desktop/studia/CLionProjects/pp-2-lab-4-simple-string/cmake-build-debug && ctags -x --c++-types=f --extras --format=1 /home/blaze/Desktop/studia/CLionProjects/pp-2-lab-4-simple-string/simpleString.h /home/blaze/Desktop/studia/CLionProjects/pp-2-lab-4-simple-string/simpleString.cpp
+  COMMAND = cd /home/blaze/Desktop/studia/CLionProjects/pp-2-lab-4-simple-string/cmake-build-debug/bin && /home/blaze/Desktop/studia/CLionProjects/pp-2-lab-4-simple-string/cmake-build-debug/bin/lab4SimpleString_forStudents
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
@@ -216,7 +177,7 @@ build cmake_object_order_depends_target_unit_tests: phony || cmake_object_order_
 build unit_tests/CMakeFiles/unit_tests.dir/simpleStringTests.cpp.o: CXX_COMPILER__unit_tests_unscanned_Debug /home/blaze/Desktop/studia/CLionProjects/pp-2-lab-4-simple-string/unit_tests/simpleStringTests.cpp || cmake_object_order_depends_target_unit_tests
   CONFIG = Debug
   DEP_FILE = unit_tests/CMakeFiles/unit_tests.dir/simpleStringTests.cpp.o.d
-  FLAGS = --std=c++23 -Wall -Wextra -pedantic -Wno-error=deprecated-declarations -fsanitize=address,undefined -g -std=c++23 -fdiagnostics-color=always
+  FLAGS = --std=c++23 -Wall -Wextra -pedantic -g -std=c++23 -fdiagnostics-color=always
   INCLUDES = -isystem /home/blaze/Desktop/studia/CLionProjects/pp-2-lab-4-simple-string/unit_tests/lib/googletest/include -isystem /home/blaze/Desktop/studia/CLionProjects/pp-2-lab-4-simple-string/unit_tests/lib/googletest
   OBJECT_DIR = unit_tests/CMakeFiles/unit_tests.dir
   OBJECT_FILE_DIR = unit_tests/CMakeFiles/unit_tests.dir
@@ -224,7 +185,7 @@ build unit_tests/CMakeFiles/unit_tests.dir/simpleStringTests.cpp.o: CXX_COMPILER
 build unit_tests/CMakeFiles/unit_tests.dir/__/simpleString.cpp.o: CXX_COMPILER__unit_tests_unscanned_Debug /home/blaze/Desktop/studia/CLionProjects/pp-2-lab-4-simple-string/simpleString.cpp || cmake_object_order_depends_target_unit_tests
   CONFIG = Debug
   DEP_FILE = unit_tests/CMakeFiles/unit_tests.dir/__/simpleString.cpp.o.d
-  FLAGS = --std=c++23 -Wall -Wextra -pedantic -Wno-error=deprecated-declarations -fsanitize=address,undefined -g -std=c++23 -fdiagnostics-color=always
+  FLAGS = --std=c++23 -Wall -Wextra -pedantic -g -std=c++23 -fdiagnostics-color=always
   INCLUDES = -isystem /home/blaze/Desktop/studia/CLionProjects/pp-2-lab-4-simple-string/unit_tests/lib/googletest/include -isystem /home/blaze/Desktop/studia/CLionProjects/pp-2-lab-4-simple-string/unit_tests/lib/googletest
   OBJECT_DIR = unit_tests/CMakeFiles/unit_tests.dir
   OBJECT_FILE_DIR = unit_tests/CMakeFiles/unit_tests.dir/__
@@ -240,7 +201,7 @@ build unit_tests/CMakeFiles/unit_tests.dir/__/simpleString.cpp.o: CXX_COMPILER__
 build bin/unit_tests: CXX_EXECUTABLE_LINKER__unit_tests_Debug unit_tests/CMakeFiles/unit_tests.dir/simpleStringTests.cpp.o unit_tests/CMakeFiles/unit_tests.dir/__/simpleString.cpp.o | lib/libgtest.a lib/libgtest_main.a lib/libgtest.a || lib/libgtest.a lib/libgtest_main.a
   CONFIG = Debug
   DEP_FILE = unit_tests/CMakeFiles/unit_tests.dir/link.d
-  FLAGS = --std=c++23 -Wall -Wextra -pedantic -Wno-error=deprecated-declarations -fsanitize=address,undefined -g
+  FLAGS = --std=c++23 -Wall -Wextra -pedantic -g
   LINK_FLAGS = -Wl,--dependency-file=unit_tests/CMakeFiles/unit_tests.dir/link.d
   LINK_LIBRARIES = lib/libgtest.a  lib/libgtest_main.a  lib/libgtest.a
   OBJECT_DIR = unit_tests/CMakeFiles/unit_tests.dir
@@ -414,7 +375,7 @@ build cmake_object_order_depends_target_gmock: phony || cmake_object_order_depen
 build unit_tests/lib/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: CXX_COMPILER__gmock_unscanned_Debug /home/blaze/Desktop/studia/CLionProjects/pp-2-lab-4-simple-string/unit_tests/lib/googlemock/src/gmock-all.cc || cmake_object_order_depends_target_gmock
   CONFIG = Debug
   DEP_FILE = unit_tests/lib/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o.d
-  FLAGS = --std=c++23 -Wall -Wextra -pedantic -Wno-error=deprecated-declarations -fsanitize=address,undefined -g -std=c++23 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
+  FLAGS = --std=c++23 -Wall -Wextra -pedantic -g -std=c++23 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
   INCLUDES = -I/home/blaze/Desktop/studia/CLionProjects/pp-2-lab-4-simple-string/unit_tests/lib/googlemock/include -I/home/blaze/Desktop/studia/CLionProjects/pp-2-lab-4-simple-string/unit_tests/lib/googlemock -isystem /home/blaze/Desktop/studia/CLionProjects/pp-2-lab-4-simple-string/unit_tests/lib/googletest/include -isystem /home/blaze/Desktop/studia/CLionProjects/pp-2-lab-4-simple-string/unit_tests/lib/googletest
   OBJECT_DIR = unit_tests/lib/googlemock/CMakeFiles/gmock.dir
   OBJECT_FILE_DIR = unit_tests/lib/googlemock/CMakeFiles/gmock.dir/src
@@ -429,7 +390,7 @@ build unit_tests/lib/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: CXX_COM
 
 build lib/libgmock.a: CXX_STATIC_LIBRARY_LINKER__gmock_Debug unit_tests/lib/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o || lib/libgtest.a
   CONFIG = Debug
-  LANGUAGE_COMPILE_FLAGS = --std=c++23 -Wall -Wextra -pedantic -Wno-error=deprecated-declarations -fsanitize=address,undefined -g
+  LANGUAGE_COMPILE_FLAGS = --std=c++23 -Wall -Wextra -pedantic -g
   OBJECT_DIR = unit_tests/lib/googlemock/CMakeFiles/gmock.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -448,7 +409,7 @@ build cmake_object_order_depends_target_gmock_main: phony || cmake_object_order_
 build unit_tests/lib/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o: CXX_COMPILER__gmock_main_unscanned_Debug /home/blaze/Desktop/studia/CLionProjects/pp-2-lab-4-simple-string/unit_tests/lib/googlemock/src/gmock_main.cc || cmake_object_order_depends_target_gmock_main
   CONFIG = Debug
   DEP_FILE = unit_tests/lib/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o.d
-  FLAGS = --std=c++23 -Wall -Wextra -pedantic -Wno-error=deprecated-declarations -fsanitize=address,undefined -g -std=c++23 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
+  FLAGS = --std=c++23 -Wall -Wextra -pedantic -g -std=c++23 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
   INCLUDES = -isystem /home/blaze/Desktop/studia/CLionProjects/pp-2-lab-4-simple-string/unit_tests/lib/googlemock/include -isystem /home/blaze/Desktop/studia/CLionProjects/pp-2-lab-4-simple-string/unit_tests/lib/googlemock -isystem /home/blaze/Desktop/studia/CLionProjects/pp-2-lab-4-simple-string/unit_tests/lib/googletest/include -isystem /home/blaze/Desktop/studia/CLionProjects/pp-2-lab-4-simple-string/unit_tests/lib/googletest
   OBJECT_DIR = unit_tests/lib/googlemock/CMakeFiles/gmock_main.dir
   OBJECT_FILE_DIR = unit_tests/lib/googlemock/CMakeFiles/gmock_main.dir/src
@@ -463,7 +424,7 @@ build unit_tests/lib/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o: C
 
 build lib/libgmock_main.a: CXX_STATIC_LIBRARY_LINKER__gmock_main_Debug unit_tests/lib/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o || lib/libgmock.a lib/libgtest.a
   CONFIG = Debug
-  LANGUAGE_COMPILE_FLAGS = --std=c++23 -Wall -Wextra -pedantic -Wno-error=deprecated-declarations -fsanitize=address,undefined -g
+  LANGUAGE_COMPILE_FLAGS = --std=c++23 -Wall -Wextra -pedantic -g
   OBJECT_DIR = unit_tests/lib/googlemock/CMakeFiles/gmock_main.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -552,7 +513,7 @@ build cmake_object_order_depends_target_gtest: phony || .
 build unit_tests/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o: CXX_COMPILER__gtest_unscanned_Debug /home/blaze/Desktop/studia/CLionProjects/pp-2-lab-4-simple-string/unit_tests/lib/googletest/src/gtest-all.cc || cmake_object_order_depends_target_gtest
   CONFIG = Debug
   DEP_FILE = unit_tests/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o.d
-  FLAGS = --std=c++23 -Wall -Wextra -pedantic -Wno-error=deprecated-declarations -fsanitize=address,undefined -g -std=c++23 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
+  FLAGS = --std=c++23 -Wall -Wextra -pedantic -g -std=c++23 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
   INCLUDES = -I/home/blaze/Desktop/studia/CLionProjects/pp-2-lab-4-simple-string/unit_tests/lib/googletest/include -I/home/blaze/Desktop/studia/CLionProjects/pp-2-lab-4-simple-string/unit_tests/lib/googletest
   OBJECT_DIR = unit_tests/lib/googletest/CMakeFiles/gtest.dir
   OBJECT_FILE_DIR = unit_tests/lib/googletest/CMakeFiles/gtest.dir/src
@@ -567,7 +528,7 @@ build unit_tests/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o: CXX_COM
 
 build lib/libgtest.a: CXX_STATIC_LIBRARY_LINKER__gtest_Debug unit_tests/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
   CONFIG = Debug
-  LANGUAGE_COMPILE_FLAGS = --std=c++23 -Wall -Wextra -pedantic -Wno-error=deprecated-declarations -fsanitize=address,undefined -g
+  LANGUAGE_COMPILE_FLAGS = --std=c++23 -Wall -Wextra -pedantic -g
   OBJECT_DIR = unit_tests/lib/googletest/CMakeFiles/gtest.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -586,7 +547,7 @@ build cmake_object_order_depends_target_gtest_main: phony || cmake_object_order_
 build unit_tests/lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o: CXX_COMPILER__gtest_main_unscanned_Debug /home/blaze/Desktop/studia/CLionProjects/pp-2-lab-4-simple-string/unit_tests/lib/googletest/src/gtest_main.cc || cmake_object_order_depends_target_gtest_main
   CONFIG = Debug
   DEP_FILE = unit_tests/lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o.d
-  FLAGS = --std=c++23 -Wall -Wextra -pedantic -Wno-error=deprecated-declarations -fsanitize=address,undefined -g -std=c++23 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
+  FLAGS = --std=c++23 -Wall -Wextra -pedantic -g -std=c++23 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
   INCLUDES = -isystem /home/blaze/Desktop/studia/CLionProjects/pp-2-lab-4-simple-string/unit_tests/lib/googletest/include -isystem /home/blaze/Desktop/studia/CLionProjects/pp-2-lab-4-simple-string/unit_tests/lib/googletest
   OBJECT_DIR = unit_tests/lib/googletest/CMakeFiles/gtest_main.dir
   OBJECT_FILE_DIR = unit_tests/lib/googletest/CMakeFiles/gtest_main.dir/src
@@ -601,7 +562,7 @@ build unit_tests/lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o: C
 
 build lib/libgtest_main.a: CXX_STATIC_LIBRARY_LINKER__gtest_main_Debug unit_tests/lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o || lib/libgtest.a
   CONFIG = Debug
-  LANGUAGE_COMPILE_FLAGS = --std=c++23 -Wall -Wextra -pedantic -Wno-error=deprecated-declarations -fsanitize=address,undefined -g
+  LANGUAGE_COMPILE_FLAGS = --std=c++23 -Wall -Wextra -pedantic -g
   OBJECT_DIR = unit_tests/lib/googletest/CMakeFiles/gtest_main.dir
   POST_BUILD = :
   PRE_LINK = :

@@ -1,6 +1,0 @@
-/tmp/tmptb1mm203/student/simpleString.h:153:9: warning: Class 'SimpleString' does not have a operator= which is recommended since it has dynamic memory/resource allocation(s). [noOperatorEq]
-        data_ = new char[capacity_];
-        ^
-/tmp/tmptb1mm203/student/simpleString.h:151:5: warning: Class 'SimpleString' has a constructor with 1 argument that is not explicit. [noExplicitConstructor]
-    SimpleString(const char* text) : size_(std::strlen(text)), capacity_(size_ + 1)
-    ^
