@@ -1,0 +1,33 @@
+-- The C compiler identification is GNU 13.1.0
+-- The CXX compiler identification is GNU 13.1.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for __asan_init in asan
+-- Looking for __asan_init in asan - found
+-- Looking for __ubsan_handle_add_overflow in ubsan
+-- Looking for __ubsan_handle_add_overflow in ubsan - found
+-- Sanitizers (AddressSanitizer + UndefinedBehaviorSanitizer) są dostępne
+Katalog do zbudowanego projektu: /tmp/tmptb1mm203/student/build
+ + Znaleziono nagłówki: /tmp/tmptb1mm203/student/simpleString.h
+ + Znaleziono źródła: /tmp/tmptb1mm203/student/main.cpp;/tmp/tmptb1mm203/student/simpleString.cpp
+ + Znaleziono źródła bez main.cpp: /tmp/tmptb1mm203/student/simpleString.cpp
+	* valgrind found: /usr/bin/valgrind
+	* cppcheck found: /usr/local/bin/cppcheck
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+ + Znaleziono pliki testów: /tmp/tmptb1mm203/student/unit_tests/simpleStringTests.cpp
+ + katalog nagłówków: 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/tmptb1mm203/student/build

@@ -1,0 +1,331 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/4.1.2/CMakeSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/blaze/Desktop/kk/CLion-2025.3.3/clion-2025.3.3/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/blaze/Desktop/kk/CLion-2025.3.3/clion-2025.3.3/bin/cmake/linux/x64/share/cmake-4.1/Modules/Platform/Linux-Initialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/4.1.2/CMakeCCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/4.1.2/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/blaze/Desktop/kk/CLion-2025.3.3/clion-2025.3.3/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/blaze/Desktop/kk/CLion-2025.3.3/clion-2025.3.3/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/blaze/Desktop/kk/CLion-2025.3.3/clion-2025.3.3/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/blaze/Desktop/kk/CLion-2025.3.3/clion-2025.3.3/bin/cmake/linux/x64/share/cmake-4.1/Modules/Platform/Linux.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/blaze/Desktop/kk/CLion-2025.3.3/clion-2025.3.3/bin/cmake/linux/x64/share/cmake-4.1/Modules/Platform/UnixPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/blaze/Desktop/kk/CLion-2025.3.3/clion-2025.3.3/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/blaze/Desktop/kk/CLion-2025.3.3/clion-2025.3.3/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/blaze/Desktop/kk/CLion-2025.3.3/clion-2025.3.3/bin/cmake/linux/x64/share/cmake-4.1/Modules/Compiler/GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/blaze/Desktop/kk/CLion-2025.3.3/clion-2025.3.3/bin/cmake/linux/x64/share/cmake-4.1/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/blaze/Desktop/kk/CLion-2025.3.3/clion-2025.3.3/bin/cmake/linux/x64/share/cmake-4.1/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/blaze/Desktop/kk/CLion-2025.3.3/clion-2025.3.3/bin/cmake/linux/x64/share/cmake-4.1/Modules/Platform/Linux-GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/blaze/Desktop/kk/CLion-2025.3.3/clion-2025.3.3/bin/cmake/linux/x64/share/cmake-4.1/Modules/Platform/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/blaze/Desktop/kk/CLion-2025.3.3/clion-2025.3.3/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/blaze/Desktop/kk/CLion-2025.3.3/clion-2025.3.3/bin/cmake/linux/x64/share/cmake-4.1/Modules/Internal/CMakeCLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/blaze/Desktop/kk/CLion-2025.3.3/clion-2025.3.3/bin/cmake/linux/x64/share/cmake-4.1/Modules/Internal/CMakeCommonLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/blaze/Desktop/kk/CLion-2025.3.3/clion-2025.3.3/bin/cmake/linux/x64/share/cmake-4.1/Modules/Linker/GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/blaze/Desktop/kk/CLion-2025.3.3/clion-2025.3.3/bin/cmake/linux/x64/share/cmake-4.1/Modules/Linker/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/blaze/Desktop/kk/CLion-2025.3.3/clion-2025.3.3/bin/cmake/linux/x64/share/cmake-4.1/Modules/Platform/Linker/Linux-GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/blaze/Desktop/kk/CLion-2025.3.3/clion-2025.3.3/bin/cmake/linux/x64/share/cmake-4.1/Modules/Platform/Linker/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/blaze/Desktop/kk/CLion-2025.3.3/clion-2025.3.3/bin/cmake/linux/x64/share/cmake-4.1/Modules/Platform/Linker/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/blaze/Desktop/kk/CLion-2025.3.3/clion-2025.3.3/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/blaze/Desktop/kk/CLion-2025.3.3/clion-2025.3.3/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/blaze/Desktop/kk/CLion-2025.3.3/clion-2025.3.3/bin/cmake/linux/x64/share/cmake-4.1/Modules/Compiler/GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/blaze/Desktop/kk/CLion-2025.3.3/clion-2025.3.3/bin/cmake/linux/x64/share/cmake-4.1/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/blaze/Desktop/kk/CLion-2025.3.3/clion-2025.3.3/bin/cmake/linux/x64/share/cmake-4.1/Modules/Platform/Linux-GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/blaze/Desktop/kk/CLion-2025.3.3/clion-2025.3.3/bin/cmake/linux/x64/share/cmake-4.1/Modules/Platform/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/blaze/Desktop/kk/CLion-2025.3.3/clion-2025.3.3/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/blaze/Desktop/kk/CLion-2025.3.3/clion-2025.3.3/bin/cmake/linux/x64/share/cmake-4.1/Modules/Internal/CMakeCXXLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/blaze/Desktop/kk/CLion-2025.3.3/clion-2025.3.3/bin/cmake/linux/x64/share/cmake-4.1/Modules/Internal/CMakeCommonLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/blaze/Desktop/kk/CLion-2025.3.3/clion-2025.3.3/bin/cmake/linux/x64/share/cmake-4.1/Modules/Linker/GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/blaze/Desktop/kk/CLion-2025.3.3/clion-2025.3.3/bin/cmake/linux/x64/share/cmake-4.1/Modules/Linker/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/blaze/Desktop/kk/CLion-2025.3.3/clion-2025.3.3/bin/cmake/linux/x64/share/cmake-4.1/Modules/Platform/Linker/Linux-GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/blaze/Desktop/kk/CLion-2025.3.3/clion-2025.3.3/bin/cmake/linux/x64/share/cmake-4.1/Modules/Platform/Linker/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/blaze/Desktop/kk/CLion-2025.3.3/clion-2025.3.3/bin/cmake/linux/x64/share/cmake-4.1/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"path" : "unit_tests/CMakeLists.txt"
+		},
+		{
+			"path" : "unit_tests/lib/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/blaze/Desktop/kk/CLion-2025.3.3/clion-2025.3.3/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakeDependentOption.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/blaze/Desktop/kk/CLion-2025.3.3/clion-2025.3.3/bin/cmake/linux/x64/share/cmake-4.1/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"path" : "unit_tests/lib/googlemock/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/blaze/Desktop/kk/CLion-2025.3.3/clion-2025.3.3/bin/cmake/linux/x64/share/cmake-4.1/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/blaze/Desktop/kk/CLion-2025.3.3/clion-2025.3.3/bin/cmake/linux/x64/share/cmake-4.1/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/blaze/Desktop/kk/CLion-2025.3.3/clion-2025.3.3/bin/cmake/linux/x64/share/cmake-4.1/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/blaze/Desktop/kk/CLion-2025.3.3/clion-2025.3.3/bin/cmake/linux/x64/share/cmake-4.1/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/blaze/Desktop/kk/CLion-2025.3.3/clion-2025.3.3/bin/cmake/linux/x64/share/cmake-4.1/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/blaze/Desktop/kk/CLion-2025.3.3/clion-2025.3.3/bin/cmake/linux/x64/share/cmake-4.1/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "unit_tests/lib/googlemock/cmake/gmock.pc.in"
+		},
+		{
+			"path" : "unit_tests/lib/googlemock/cmake/gmock_main.pc.in"
+		},
+		{
+			"path" : "unit_tests/lib/googletest/CMakeLists.txt"
+		},
+		{
+			"path" : "unit_tests/lib/googletest/cmake/internal_utils.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/blaze/Desktop/kk/CLion-2025.3.3/clion-2025.3.3/bin/cmake/linux/x64/share/cmake-4.1/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/blaze/Desktop/kk/CLion-2025.3.3/clion-2025.3.3/bin/cmake/linux/x64/share/cmake-4.1/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/blaze/Desktop/kk/CLion-2025.3.3/clion-2025.3.3/bin/cmake/linux/x64/share/cmake-4.1/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/blaze/Desktop/kk/CLion-2025.3.3/clion-2025.3.3/bin/cmake/linux/x64/share/cmake-4.1/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/blaze/Desktop/kk/CLion-2025.3.3/clion-2025.3.3/bin/cmake/linux/x64/share/cmake-4.1/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/blaze/Desktop/kk/CLion-2025.3.3/clion-2025.3.3/bin/cmake/linux/x64/share/cmake-4.1/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/blaze/Desktop/kk/CLion-2025.3.3/clion-2025.3.3/bin/cmake/linux/x64/share/cmake-4.1/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/blaze/Desktop/kk/CLion-2025.3.3/clion-2025.3.3/bin/cmake/linux/x64/share/cmake-4.1/Modules/CMakePackageConfigHelpers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/blaze/Desktop/kk/CLion-2025.3.3/clion-2025.3.3/bin/cmake/linux/x64/share/cmake-4.1/Modules/WriteBasicConfigVersionFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/blaze/Desktop/kk/CLion-2025.3.3/clion-2025.3.3/bin/cmake/linux/x64/share/cmake-4.1/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
+		},
+		{
+			"path" : "unit_tests/lib/googletest/cmake/Config.cmake.in"
+		},
+		{
+			"path" : "unit_tests/lib/googletest/cmake/gtest.pc.in"
+		},
+		{
+			"path" : "unit_tests/lib/googletest/cmake/gtest_main.pc.in"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "/home/blaze/Desktop/studia/CLionProjects/pp-2-lab-4-simple-string/cmake-build-debug",
+		"source" : "/home/blaze/Desktop/studia/CLionProjects/pp-2-lab-4-simple-string"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 1
+	}
+}
